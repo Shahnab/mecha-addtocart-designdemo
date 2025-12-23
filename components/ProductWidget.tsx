@@ -13,7 +13,7 @@ export default function ProductWidget() {
       </div>
 
       {/* Main Interaction Area - Scaled appropriately to fit */}
-      <div className="relative z-20 scale-[1.8] md:scale-[2.2] origin-center filter drop-shadow-2xl p-4">
+      <div className="relative z-20 scale-[0.85] portrait:scale-[1.8] landscape:scale-[1.1] md:landscape:scale-[1.4] lg:scale-[2.2] origin-center filter drop-shadow-2xl p-4">
           <TapeSelector value={quantity} onChange={setQuantity} min={1} max={10} />
       </div>
 
