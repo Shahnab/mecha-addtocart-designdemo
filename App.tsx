@@ -21,9 +21,26 @@ export default function App() {
         <ProductWidget />
       </main>
       
-      {/* Footer Text */}
-      <div className="absolute bottom-8 left-0 right-0 text-center text-gray-400 text-sm font-medium tracking-wide pointer-events-none">
-        Interactive UI Concept
+      {/* Footer - Copyright & Visitor Counter */}
+      <div className="absolute bottom-4 left-0 right-0 text-center z-20">
+        <div className="text-sm text-gray-500 mb-2">
+          &copy; {new Date().getFullYear()}{' '}
+          <a 
+            href="https://www.linkedin.com/in/shahnabahmed/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="font-semibold text-gray-600 hover:text-orange-500 transition-colors duration-300 pointer-events-auto"
+          >
+            Shahnab
+          </a>
+        </div>
+        <div className="pointer-events-auto">
+          <img 
+            src="https://hits.sh/shahnab.github.io/mecha-addtocart-designdemo.svg?style=flat-square&label=VISITS&color=ea580c&labelColor=333333" 
+            alt="Visitor Count"
+            className="mx-auto"
+          />
+        </div>
       </div>
     </div>
   );
