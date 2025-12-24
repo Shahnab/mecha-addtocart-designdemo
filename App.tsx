@@ -3,7 +3,7 @@ import ProductWidget from './components/ProductWidget';
 
 export default function App() {
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-[#eaeaea] bg-dots relative overflow-hidden">
+    <div className="min-h-screen w-full flex items-center justify-center bg-[#000000] bg-dots relative overflow-hidden">
       {/* Rotation Prompt - Only visible in portrait mode on mobile */}
       <div className="portrait:flex landscape:hidden absolute inset-0 z-50 bg-[#1e1e1e] flex-col items-center justify-center text-white p-8 md:hidden">
         <svg className="w-24 h-24 mb-6 animate-[spin_3s_ease-in-out_infinite]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
